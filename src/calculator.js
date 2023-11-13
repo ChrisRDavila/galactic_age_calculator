@@ -32,5 +32,7 @@ export class Calculator {
     return Number.parseFloat(((this.earthAge - this.prevAge)/0.62).toFixed(2));
   }
 
-  
+  marsYearsSince18() {
+    return Number.parseFloat(((this.earthAge - this.prevAge)/1.88).toFixed(2));
+  }
 }

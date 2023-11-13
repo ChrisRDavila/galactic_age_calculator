@@ -35,4 +35,8 @@ export class Calculator {
   marsYearsSince18() {
     return Number.parseFloat(((this.earthAge - this.prevAge)/1.88).toFixed(2));
   }
+
+  jupiterYearsSince18() {
+    return Number.parseFloat(((this.earthAge - this.prevAge)/11.86).toFixed(2));
+  }
 }

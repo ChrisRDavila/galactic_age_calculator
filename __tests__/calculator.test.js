@@ -26,23 +26,23 @@ describe('Calculator', () => {
     expect(ageTest.jupiterAge()).toEqual(3.20);
   });
 
-  test('#6 determine earthYears since my 18th birthday', () => {
+  test('#6. determine earthYears since my 18th birthday', () => {
     expect(ageTest.earthYearsSince18()).toEqual(20);
   });
 
-  test('#7 determine mercuryYears since my 18th birthday', () => {
+  test('#7. determine mercuryYears since my 18th birthday', () => {
     expect(ageTest.mercuryYearsSince18()).toEqual(83.33);
   });
 
-  test('#8 determine venusYears since my 18th birthday', () => {
+  test('#8. determine venusYears since my 18th birthday', () => {
     expect(ageTest.venusYearsSince18()).toEqual(32.26);
   });
 
-  test('#9 determine marsYears since my 18th birthday', () => {
+  test('#9. determine marsYears since my 18th birthday', () => {
     expect(ageTest.marsYearsSince18()).toEqual(10.64);
   });
 
-  test('#10 determine jupiterYears since my 18th birthday', () => {
+  test('#10. determine jupiterYears since my 18th birthday', () => {
     expect(ageTest.jupiterYearsSince18()).toEqual(1.69);
   });
 });

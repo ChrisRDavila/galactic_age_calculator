@@ -1,6 +1,7 @@
 export class Calculator {
   constructor(earthAge) {
     this.earthAge = earthAge;
+    this.prevAge = 18;
   }
 
   mercuryAge() {
@@ -20,6 +21,6 @@ export class Calculator {
   }
 
   earthYearsSince18() {
-    return Number.parseFloat((this.earthAge - 18).toFixed(2));
+    return Number.parseFloat((this.earthAge - this.prevAge).toFixed(2));
   }
 }

@@ -27,4 +27,8 @@ export class Calculator {
   mercuryYearsSince18() {
     return Number.parseFloat(((this.earthAge - this.prevAge)/0.24).toFixed(2));
   }
+
+  venusYearsSince18() {
+    return Number.parseFloat(((this.earthAge - this.prevAge)/0.62).toFixed(2));
+  }
 }

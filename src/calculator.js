@@ -31,4 +31,6 @@ export class Calculator {
   venusYearsSince18() {
     return Number.parseFloat(((this.earthAge - this.prevAge)/0.62).toFixed(2));
   }
+
+  
 }

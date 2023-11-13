@@ -30,7 +30,7 @@ describe('Calculator', () => {
     expect(ageTest.earthYearsSince18()).toEqual(20);
   });
 
-  test('#7. determine mercuryYears since my 18th birthday', () => {
+  test('#7. determine mercuryYears since adulthood (18 years old)', () => {
     expect(ageTest.mercuryYearsSince18()).toEqual(83.33);
   });
 
@@ -45,5 +45,9 @@ describe('Calculator', () => {
   test('#10. determine jupiterYears since my 18th birthday', () => {
     expect(ageTest.jupiterYearsSince18()).toEqual(1.69);
   });
+
+  test('#11. determine eathYears until retirement (64 earth yearths old)', () => {
+    expect(ageTest.earthYearsUntilRetirement()).toEqual(26);
+  })
 });
 

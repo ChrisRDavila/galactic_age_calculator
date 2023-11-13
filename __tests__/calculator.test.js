@@ -33,4 +33,9 @@ describe('Calculator', () => {
   test('#7 determine mercuryYears since my 18th birthday', () => {
     expect(ageTest.mercuryYearsSince18()).toEqual(83.33);
   });
+
+  test('#8 determine venusYears since my 18th birthday', () => {
+    expect(ageTest.venusYearsSince18()).toEqual(32.26);
+  });
 });
+

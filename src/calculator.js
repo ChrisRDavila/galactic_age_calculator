@@ -56,4 +56,8 @@ export class Calculator {
   marsYearsUntilRetirement() {
     return Number.parseFloat(((this.retirementAge - this.earthAge)/1.88).toFixed(2));
   }
+
+  jupiterYearsUntilRetirement() {
+    return Number.parseFloat(((this.retirementAge - this.earthAge)/11.86).toFixed(2));
+  }
 }

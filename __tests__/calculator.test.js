@@ -41,5 +41,9 @@ describe('Calculator', () => {
   test('#9 determine marsYears since my 18th birthday', () => {
     expect(ageTest.marsYearsSince18()).toEqual(10.64);
   });
+
+  test('#10 determine jupiterYears since my 18th birthday', () => {
+    expect(ageTest.jupiterYearsSince18()).toEqual(1.69);
+  });
 });
 

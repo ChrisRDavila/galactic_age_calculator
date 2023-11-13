@@ -1,3 +1,5 @@
+import { Calculator } from './../src/calculator.js';
+
 describe('Calculator', () => {
   let ageTest;
   
@@ -5,6 +7,6 @@ describe('Calculator', () => {
     ageTest = new Calculator(38)
   });
   test('should return instance of age from age constructor', () => {
-    expect(ageTest.age).toEqual(38);
+    expect(ageTest.earthAge).toEqual(38);
   });
 });

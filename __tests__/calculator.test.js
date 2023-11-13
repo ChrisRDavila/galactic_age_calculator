@@ -57,5 +57,9 @@ describe('Calculator', () => {
   test('#13. determine venusYears until retirement (64 earth yearths old)', () => {
     expect(ageTest.venusYearsUntilRetirement()).toEqual(41.94);
   });
+
+  test('#14. determine marsYears until retirement (64 earth yearths old)', () => {
+    expect(ageTest.marsYearsUntilRetirement()).toEqual(13.83);
+  });
 });
 

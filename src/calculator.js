@@ -48,4 +48,8 @@ export class Calculator {
   mercuryYearsUntilRetirement() {
     return Number.parseFloat(((this.retirementAge - this.earthAge)/0.24).toFixed(2));
   }
+
+  venusYearsUntilRetirement() {
+    return Number.parseFloat(((this.retirementAge - this.earthAge)/0.62).toFixed(2));
+  }
 }

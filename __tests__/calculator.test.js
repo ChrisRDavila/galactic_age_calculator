@@ -29,4 +29,8 @@ describe('Calculator', () => {
   test('#6 determine earthYears since my 18th birthday', () => {
     expect(ageTest.earthYearsSince18()).toEqual(20);
   });
+
+  test('#7 determine mercuryYears since my 18th birthday', () => {
+    expect(ageTest.mercuryYearsSince18()).toEqual(83.33);
+  });
 });

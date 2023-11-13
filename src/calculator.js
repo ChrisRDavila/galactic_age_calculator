@@ -18,4 +18,8 @@ export class Calculator {
   jupiterAge() {
     return Number.parseFloat((this.earthAge / 11.86).toFixed(2));
   }
+
+  earthYearsSince18() {
+    return Number.parseFloat((this.earthAge - 18).toFixed(2));
+  }
 }

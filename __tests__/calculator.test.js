@@ -49,5 +49,9 @@ describe('Calculator', () => {
   test('#11. determine eathYears until retirement (64 earth yearths old)', () => {
     expect(ageTest.earthYearsUntilRetirement()).toEqual(26);
   })
+
+  test('#12. determine mercuryYears until retirement (64 earth yearths old)', () => {
+    expect(ageTest.mercuryYearsUntilRetirement()).toEqual(108.33);
+  });
 });
 

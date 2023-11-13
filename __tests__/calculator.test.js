@@ -11,6 +11,8 @@ describe('Calculator', () => {
   });
 
   test('#2. should return age in Mercury years', () => {
-    expect(ageTest.mercuryAge()).toEqual(158);
+    expect(ageTest.mercuryAge()).toEqual(158.33);
   });
+
+  
 });

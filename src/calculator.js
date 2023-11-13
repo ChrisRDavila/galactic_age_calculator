@@ -4,6 +4,6 @@ export class Calculator {
   }
 
   mercuryAge() {
-    return Math.floor(this.earthAge / .24);
+    return Number.parseFloat((this.earthAge / 0.24).toFixed(2));
   }
 }

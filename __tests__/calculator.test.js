@@ -25,4 +25,8 @@ describe('Calculator', () => {
   test('#5. should return age in Jupiter years', () => {
     expect(ageTest.jupiterAge()).toEqual(3.20);
   });
+
+  test('#6 determine earthYears since my 18th birthday', () => {
+    expect(ageTest.earthYearsSince18()).toEqual(20);
+  });
 });

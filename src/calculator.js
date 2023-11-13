@@ -52,4 +52,8 @@ export class Calculator {
   venusYearsUntilRetirement() {
     return Number.parseFloat(((this.retirementAge - this.earthAge)/0.62).toFixed(2));
   }
+
+  marsYearsUntilRetirement() {
+    return Number.parseFloat(((this.retirementAge - this.earthAge)/1.88).toFixed(2));
+  }
 }

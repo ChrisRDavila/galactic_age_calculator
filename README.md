@@ -18,24 +18,26 @@
 
 
 ## Description
+Super Galactic Age Calculator is a practice in using consturctor classes as well as Red and Green refactor work flow. The business logic of this application is able to take a number for age in earth years and convert it to years on Mercury, Venus, Mars and Jupiter.  It can also show how many years have passed since a selected age on each planet as well as how many years will pass until an specified age is met on each planet.
 
 ## Setup/Installation Requirements
 
-* _set up .env file withkey named API key_
-* _if API needs key run $ npm install dotenv-webpack@2.0.0 --save-dev to use the key from .env file, name key_
-* _npm install --save-dev style-loader css-loader_
-* _Installing all packages with $ npm install._
+* _Clone from repository to users computer_
+* _make sure .gitignore is added to repository_
+* _Install all packages with $ npm install_
 * _Building the project using webpack with $ npm run build_
 * _Starting a development server with $ npm run start_
-* _Linting JS files in the src folder with $ npm run lint_
-* _Running tests with Jest using $ npm run test_
-* _npm run deploy to build project and publish to GH Pages_
-* -APi set up/use_
+* _You can Lint JS files in the src folder with $ npm run lint_
+* _Can also Run tests with Jest using $ npm run test, will allow to see line coverage and passing of test logic_
+* _Code at this point only contains Business Logic therefore instance to test has been created in the __tests__ file_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _math doest not acount for leap years_
+* _is not as of yet attached to any user interface as per parameters of assignment_
 
 ## License
-[MIT](https://yourlicesnepage)
+
+[MIT](https://github.com/ChrisRDavila/galactic_age_calculator/blob/main/LICENSE)
+
+Copyright (c) 2023 Christopher Davila

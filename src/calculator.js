@@ -2,6 +2,7 @@ export class Calculator {
   constructor(earthAge) {
     this.earthAge = earthAge;
     this.prevAge = 18;
+    this.retirementAge = 64;
   }
 
   mercuryAge() {
@@ -38,5 +39,9 @@ export class Calculator {
 
   jupiterYearsSince18() {
     return Number.parseFloat(((this.earthAge - this.prevAge)/11.86).toFixed(2));
+  }
+
+  earthYearsUntilRetirement() {
+    return Number.parseFloat((this.retirementAge - this.earthAge).toFixed(2));
   }
 }

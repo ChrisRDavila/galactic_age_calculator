@@ -1,17 +1,20 @@
-# (Application Name)
+# (Super Galactic Age Calculator)
 
-#### (Brief Description of Application)
+#### (This application will convert earth years to years on mercury, venus, mars and jupiter)
 
-#### By (Your Name Here)
+#### By (Christopher Davila)
 
 ## Technologies Used
 
+* _eslint 8.18.0_
+* _babel_
 * _webpack_
 * _npm_
 * _html_
 * _javascript_
 * _jist_
-* _API_
+* _markdown_
+* _CSS_
 
 
 ## Description

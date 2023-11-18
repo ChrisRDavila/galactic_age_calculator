@@ -17,7 +17,6 @@ module.exports = {
   plugins: [
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
-    new Dotenv(),
     new HtmlWebpackPlugin({
       title: 'template',
       template: './src/index.html',
@@ -27,46 +26,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(gif|png|avif|jpe?g)$/,
-        type: "asset/resource",
-        generator: {
-          filename: "[name][ext]",
-          publicPath: "assets/images/",
-          outputPath: "assets/images/",
-        },
-      },
-      {
-        test:/\.html$/,
-        use: [
-          'html-loader'
-        ]
-      },
-      {
-        
         test: /\.css$/,
-        use: ['style-loader','css-loader'],
-      },
-      {
-        test: /\.(png|jpe?g|gif)$/i,
         use: [
-          {
-            loader:'file-loader',
-          },
-        ],
-      },
-      {
-        test: /\.(mp3)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'assets/audio/',
-              publicPath: 'assets/audio/',
-            },
-          },
-        ],
-      },
-    ],
-  },
+          'style-loader',
+          'css-loader'
+        ]
+      }
+    ]
+  }
 };

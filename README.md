@@ -12,7 +12,7 @@
 * _npm_
 * _html_
 * _javascript_
-* _jist_
+* _jest_
 * _markdown_
 * _CSS_
 
